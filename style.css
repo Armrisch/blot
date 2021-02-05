@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#178c90;
+    color:white
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 100vw;
+    height: 1000px;
+    overflow-y:scroll;
+}
+h1{
+    margin-bottom: 25px;
+}
+.sex_1{
+    width: 280px;
+}
+table{
+    border:1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+th,td,tr{
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+td,th{
+   box-sizing: border-box;
+}
+th{
+   padding: 10px;
+   font-size: 16px;
+   font-family: system-ui,serif;
+}
+
+input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.input{
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.hashiv{
+    width: 50px;
+}
+
+.result{
+    background: #0ae0e8;
+    color: black;
+    font-size: 20px;
+}
+.carts img{
+    width: 20%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 2px;
+}
+.carts_active{
+    background: yellow;
+}
+.carts{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+.img_active{
+    width: 20px;
+    height: 20px;
+}
+.num_count{
+    width: 65px;
+    display: flex;
+    font-style: italic;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.num_count_other{
+    justify-content: center!important;
+}
+.center{
+    text-align: center;
+}
